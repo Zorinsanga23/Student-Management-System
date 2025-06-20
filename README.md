@@ -1,16 +1,16 @@
 # Student-Management-System
 
 
-##1.	Introduction
+## 1.	Introduction
 This Java-based console application is designed to manage basic academic data such as students, courses, subjects, and marks. It offers a modular and interactive environment where the user (typically an administrator or teacher) can perform CRUD (Create, Read, Update, Delete) operations on student and course data, assign marks for individual subjects, and generate grade reports.
 
 
 The goal of the system is to offer a lightweight, efficient solution to manage educational records without the complexity of databases or external systems.
 
-##2.	Features
+## 2.	Features
 
 
-##2.1	Student Management
+## 2.1	Student Management
 This module allows the user to:
 
 -	Add new students by providing a unique student ID and a name.
@@ -21,7 +21,7 @@ This module allows the user to:
 
 
 
-##2.2	Course and Subject Management
+## 2.2	Course and Subject Management
 This module facilitates course handling:
 
 -	Add new courses using a unique course code and a descriptive title.
@@ -33,7 +33,7 @@ This module facilitates course handling:
 -	Subjects are managed within the scope of a course, allowing for curriculum-specific structures.
 
 
-##2.3	Marks Management and Grading 
+## 2.3	Marks Management and Grading 
 The marks module provides the following capabilities:
 
 -	Assign marks to a student for a particular subject under a selected course.
@@ -48,7 +48,7 @@ The marks module provides the following capabilities:
 
 
 
-##3.	Grading Criteria
+## 3.	Grading Criteria
 Marks assigned are translated into grades according to the following scale:
 
 •	A+ : 90 and above
@@ -69,7 +69,7 @@ This makes it easier to assess performance quickly and categorize students based
 
 
 
-##4.	Module Description
+## 4.	Module Description
 •	Student.java: Represents each student with an ID and name. Provides getter methods and a simple string representation.
 
 •	Course.java: Defines a course using a code and title. Maintains a list of subjects related to the course. Allows dynamic addition of subjects.
@@ -80,7 +80,7 @@ This makes it easier to assess performance quickly and categorize students based
 
 •	Manager.java: Contains the main method which triggers the application and initiates the menu-driven interface.
 
-##5.	Limitations and Future Improvements
+## 5.	Limitations and Future Improvements
 •	All data is stored in memory and is lost once the program terminates.
 
 •	There is no validation for duplicate subject entries under the same course.
@@ -95,7 +95,7 @@ This makes it easier to assess performance quickly and categorize students based
 
 
 
-##6.	Conclusion
+## 6.	Conclusion
 The Student Management System is a structured, modular Java project suitable for beginners learning object-oriented programming and basic data handling. It lays the foundation for more advanced academic systems and can be expanded easily to support persistent data, reporting, authentication, and user roles.
 
 
